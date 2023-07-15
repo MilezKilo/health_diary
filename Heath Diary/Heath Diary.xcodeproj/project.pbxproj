@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B25292C02A55D245006EB759 /* DataVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25292BF2A55D245006EB759 /* DataVM.swift */; };
+		B26536712A59998B00B44826 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B26536702A59998B00B44826 /* FirebaseFirestore */; };
+		B26536732A59998B00B44826 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B26536722A59998B00B44826 /* FirebaseFirestoreSwift */; };
+		B26536762A59C2C400B44826 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26536752A59C2C400B44826 /* UserProfile.swift */; };
+		B26536782A5AACB500B44826 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26536772A5AACB500B44826 /* View.swift */; };
+		B265367F2A5B00CE00B44826 /* DrugModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B265367D2A5B00CE00B44826 /* DrugModel.xcdatamodeld */; };
+		B26536812A5B017400B44826 /* DrugVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26536802A5B017400B44826 /* DrugVM.swift */; };
+		B26536832A5C3D0600B44826 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26536822A5C3D0600B44826 /* AddItemView.swift */; };
+		B28944B62A51917B00FDC8D2 /* Heath_DiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28944B52A51917B00FDC8D2 /* Heath_DiaryApp.swift */; };
+		B28944B82A51917C00FDC8D2 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28944B72A51917C00FDC8D2 /* Main.swift */; };
+		B28944BA2A51918000FDC8D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28944B92A51918000FDC8D2 /* Assets.xcassets */; };
+		B28944BD2A51918000FDC8D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28944BC2A51918000FDC8D2 /* Preview Assets.xcassets */; };
+		B28944CD2A51951500FDC8D2 /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28944CC2A51951500FDC8D2 /* Launch.swift */; };
+		B28944CF2A51987A00FDC8D2 /* Authotization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28944CE2A51987A00FDC8D2 /* Authotization.swift */; };
+		B28944D12A519EA900FDC8D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B28944D02A519EA800FDC8D2 /* GoogleService-Info.plist */; };
+		B28944D42A519F8F00FDC8D2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B28944D32A519F8F00FDC8D2 /* FirebaseAnalytics */; };
+		B28944D62A519F8F00FDC8D2 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B28944D52A519F8F00FDC8D2 /* FirebaseAnalyticsSwift */; };
+		B28944D82A519F8F00FDC8D2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B28944D72A519F8F00FDC8D2 /* FirebaseAuth */; };
+		B28944DB2A51A17E00FDC8D2 /* AuthorizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28944DA2A51A17E00FDC8D2 /* AuthorizationManager.swift */; };
+		B28944DD2A51C5AC00FDC8D2 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28944DC2A51C5AC00FDC8D2 /* Registration.swift */; };
+		B28944DF2A52DB6E00FDC8D2 /* CustomTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28944DE2A52DB6D00FDC8D2 /* CustomTextfield.swift */; };
+		B28944E12A54444F00FDC8D2 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28944E02A54444F00FDC8D2 /* Color.swift */; };
+		B2D0EF2F2A5C6EAE008E336D /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D0EF2E2A5C6EAE008E336D /* Date.swift */; };
+		B2D0EF312A5D9D81008E336D /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D0EF302A5D9D81008E336D /* DetailsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B25292BF2A55D245006EB759 /* DataVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataVM.swift; sourceTree = "<group>"; };
+		B26536752A59C2C400B44826 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		B26536772A5AACB500B44826 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		B265367E2A5B00CE00B44826 /* DrugModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DrugModel.xcdatamodel; sourceTree = "<group>"; };
+		B26536802A5B017400B44826 /* DrugVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugVM.swift; sourceTree = "<group>"; };
+		B26536822A5C3D0600B44826 /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		B28944B22A51917B00FDC8D2 /* Heath Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heath Diary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28944B52A51917B00FDC8D2 /* Heath_DiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heath_DiaryApp.swift; sourceTree = "<group>"; };
+		B28944B72A51917C00FDC8D2 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		B28944B92A51918000FDC8D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B28944BC2A51918000FDC8D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B28944CC2A51951500FDC8D2 /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
+		B28944CE2A51987A00FDC8D2 /* Authotization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authotization.swift; sourceTree = "<group>"; };
+		B28944D02A519EA800FDC8D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B28944DA2A51A17E00FDC8D2 /* AuthorizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationManager.swift; sourceTree = "<group>"; };
+		B28944DC2A51C5AC00FDC8D2 /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		B28944DE2A52DB6D00FDC8D2 /* CustomTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextfield.swift; sourceTree = "<group>"; };
+		B28944E02A54444F00FDC8D2 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		B28944E72A5449EB00FDC8D2 /* Heath-Diary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Heath-Diary-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B2D0EF2E2A5C6EAE008E336D /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		B2D0EF302A5D9D81008E336D /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B28944AF2A51917B00FDC8D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26536732A59998B00B44826 /* FirebaseFirestoreSwift in Frameworks */,
+				B28944D62A519F8F00FDC8D2 /* FirebaseAnalyticsSwift in Frameworks */,
+				B26536712A59998B00B44826 /* FirebaseFirestore in Frameworks */,
+				B28944D82A519F8F00FDC8D2 /* FirebaseAuth in Frameworks */,
+				B28944D42A519F8F00FDC8D2 /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B265366F2A59998B00B44826 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B26536742A59C2A200B44826 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B26536752A59C2C400B44826 /* UserProfile.swift */,
+				B265367D2A5B00CE00B44826 /* DrugModel.xcdatamodeld */,
+			);
+			name = Model;
+			path = ../Model;
+			sourceTree = "<group>";
+		};
+		B28944A92A51917B00FDC8D2 = {
+			isa = PBXGroup;
+			children = (
+				B28944B42A51917B00FDC8D2 /* Heath Diary */,
+				B28944B32A51917B00FDC8D2 /* Products */,
+				B265366F2A59998B00B44826 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B28944B32A51917B00FDC8D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B28944B22A51917B00FDC8D2 /* Heath Diary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B28944B42A51917B00FDC8D2 /* Heath Diary */ = {
+			isa = PBXGroup;
+			children = (
+				B28944E72A5449EB00FDC8D2 /* Heath-Diary-Info.plist */,
+				B28944B52A51917B00FDC8D2 /* Heath_DiaryApp.swift */,
+				B28944D92A51A14A00FDC8D2 /* Utilities */,
+				B28944C72A5191D200FDC8D2 /* Templates */,
+				B28944C62A5191C900FDC8D2 /* Extensions */,
+				B26536742A59C2A200B44826 /* Model */,
+				B28944C42A5191B900FDC8D2 /* View */,
+				B28944C32A5191AB00FDC8D2 /* ViewModel */,
+				B28944D02A519EA800FDC8D2 /* GoogleService-Info.plist */,
+				B28944B92A51918000FDC8D2 /* Assets.xcassets */,
+				B28944BB2A51918000FDC8D2 /* Preview Content */,
+			);
+			path = "Heath Diary";
+			sourceTree = "<group>";
+		};
+		B28944BB2A51918000FDC8D2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B28944BC2A51918000FDC8D2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B28944C32A5191AB00FDC8D2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B25292BF2A55D245006EB759 /* DataVM.swift */,
+				B26536802A5B017400B44826 /* DrugVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B28944C42A5191B900FDC8D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B28944C82A51920A00FDC8D2 /* Core */,
+				B28944C92A51921F00FDC8D2 /* Firebase */,
+				B28944CB2A51938900FDC8D2 /* LaunchScreen */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B28944C62A5191C900FDC8D2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B28944E02A54444F00FDC8D2 /* Color.swift */,
+				B26536772A5AACB500B44826 /* View.swift */,
+				B2D0EF2E2A5C6EAE008E336D /* Date.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B28944C72A5191D200FDC8D2 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				B28944DE2A52DB6D00FDC8D2 /* CustomTextfield.swift */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		B28944C82A51920A00FDC8D2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B28944B72A51917C00FDC8D2 /* Main.swift */,
+				B26536822A5C3D0600B44826 /* AddItemView.swift */,
+				B2D0EF302A5D9D81008E336D /* DetailsView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B28944C92A51921F00FDC8D2 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				B28944CE2A51987A00FDC8D2 /* Authotization.swift */,
+				B28944DC2A51C5AC00FDC8D2 /* Registration.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		B28944CB2A51938900FDC8D2 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B28944CC2A51951500FDC8D2 /* Launch.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		B28944D92A51A14A00FDC8D2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B28944DA2A51A17E00FDC8D2 /* AuthorizationManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B28944B12A51917B00FDC8D2 /* Heath Diary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28944C02A51918000FDC8D2 /* Build configuration list for PBXNativeTarget "Heath Diary" */;
+			buildPhases = (
+				B28944AE2A51917B00FDC8D2 /* Sources */,
+				B28944AF2A51917B00FDC8D2 /* Frameworks */,
+				B28944B02A51917B00FDC8D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Heath Diary";
+			packageProductDependencies = (
+				B28944D32A519F8F00FDC8D2 /* FirebaseAnalytics */,
+				B28944D52A519F8F00FDC8D2 /* FirebaseAnalyticsSwift */,
+				B28944D72A519F8F00FDC8D2 /* FirebaseAuth */,
+				B26536702A59998B00B44826 /* FirebaseFirestore */,
+				B26536722A59998B00B44826 /* FirebaseFirestoreSwift */,
+			);
+			productName = "Heath Diary";
+			productReference = B28944B22A51917B00FDC8D2 /* Heath Diary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B28944AA2A51917B00FDC8D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B28944B12A51917B00FDC8D2 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = B28944AD2A51917B00FDC8D2 /* Build configuration list for PBXProject "Heath Diary" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B28944A92A51917B00FDC8D2;
+			packageReferences = (
+				B28944D22A519F8F00FDC8D2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				B28944E22A5448DE00FDC8D2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = B28944B32A51917B00FDC8D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B28944B12A51917B00FDC8D2 /* Heath Diary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B28944B02A51917B00FDC8D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28944BD2A51918000FDC8D2 /* Preview Assets.xcassets in Resources */,
+				B28944D12A519EA900FDC8D2 /* GoogleService-Info.plist in Resources */,
+				B28944BA2A51918000FDC8D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B28944AE2A51917B00FDC8D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28944DF2A52DB6E00FDC8D2 /* CustomTextfield.swift in Sources */,
+				B2D0EF2F2A5C6EAE008E336D /* Date.swift in Sources */,
+				B265367F2A5B00CE00B44826 /* DrugModel.xcdatamodeld in Sources */,
+				B28944B82A51917C00FDC8D2 /* Main.swift in Sources */,
+				B28944CF2A51987A00FDC8D2 /* Authotization.swift in Sources */,
+				B28944DB2A51A17E00FDC8D2 /* AuthorizationManager.swift in Sources */,
+				B25292C02A55D245006EB759 /* DataVM.swift in Sources */,
+				B26536812A5B017400B44826 /* DrugVM.swift in Sources */,
+				B28944CD2A51951500FDC8D2 /* Launch.swift in Sources */,
+				B28944E12A54444F00FDC8D2 /* Color.swift in Sources */,
+				B26536832A5C3D0600B44826 /* AddItemView.swift in Sources */,
+				B28944DD2A51C5AC00FDC8D2 /* Registration.swift in Sources */,
+				B26536762A59C2C400B44826 /* UserProfile.swift in Sources */,
+				B2D0EF312A5D9D81008E336D /* DetailsView.swift in Sources */,
+				B26536782A5AACB500B44826 /* View.swift in Sources */,
+				B28944B62A51917B00FDC8D2 /* Heath_DiaryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B28944BE2A51918000FDC8D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B28944BF2A51918000FDC8D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B28944C12A51918000FDC8D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Heath Diary/Preview Content\"";
+				DEVELOPMENT_TEAM = 5NYFDM88FB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Heath-Diary-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Дневник Здоровья";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Milez.org.ru.Heath-Diary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B28944C22A51918000FDC8D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Heath Diary/Preview Content\"";
+				DEVELOPMENT_TEAM = 5NYFDM88FB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Heath-Diary-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Дневник Здоровья";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Milez.org.ru.Heath-Diary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B28944AD2A51917B00FDC8D2 /* Build configuration list for PBXProject "Heath Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28944BE2A51918000FDC8D2 /* Debug */,
+				B28944BF2A51918000FDC8D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B28944C02A51918000FDC8D2 /* Build configuration list for PBXNativeTarget "Heath Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28944C12A51918000FDC8D2 /* Debug */,
+				B28944C22A51918000FDC8D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B28944D22A519F8F00FDC8D2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		B28944E22A5448DE00FDC8D2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B26536702A59998B00B44826 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B28944D22A519F8F00FDC8D2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		B26536722A59998B00B44826 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B28944D22A519F8F00FDC8D2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		B28944D32A519F8F00FDC8D2 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B28944D22A519F8F00FDC8D2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		B28944D52A519F8F00FDC8D2 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B28944D22A519F8F00FDC8D2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		B28944D72A519F8F00FDC8D2 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B28944D22A519F8F00FDC8D2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		B265367D2A5B00CE00B44826 /* DrugModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B265367E2A5B00CE00B44826 /* DrugModel.xcdatamodel */,
+			);
+			currentVersion = B265367E2A5B00CE00B44826 /* DrugModel.xcdatamodel */;
+			path = DrugModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B28944AA2A51917B00FDC8D2 /* Project object */;
+}
